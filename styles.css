@@ -1,0 +1,210 @@
+universal styles {}
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    background-color: #2D2E30;
+  }
+  h1 {
+    color: black;
+    font-family: Bungee Outline;
+    font-size: 92px;
+    font-weight: 700;
+    margin: 12px;
+    padding: 1rem;
+    text-align: right;
+  }
+  h2 {
+    background-color: #inherit;
+    color: #50A38C;
+    font-family: Bungee Outline;
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 5rem 0 5rem 20%;
+    padding: 0;
+    text-align: left;
+  }
+  h3 {
+    background-color: #5172F0;
+    color: white;
+    font-family: Jura;
+    font-size: 30px;
+    font-stretch: expanded;
+    font-weight: 400;
+    margin: 12px;
+    padding: 10px 10px 10px 50px;
+    text-align: left;
+    text-transform: lowercase;
+  }
+  a {
+    color: #F0A85D;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 200ms linear;
+  }
+  a:hover {
+    color: white;
+  }
+  a:active {
+    color: black;
+  }
+  p {
+    color: white;
+    font-family: Maitree;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 1rem;
+    text-align: left;
+  }
+  em {
+    font-family: Jura;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  button {
+    cursor: pointer;
+    font-family: Jura;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 20px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .primary {
+    background: #69F0CA;
+    border: 3px solid #42967F;
+    border-radius: 25px;
+    box-shadow: 0px 3px 7px;
+    transition: all 200ms linear;
+  }
+  .primary:hover {
+    background: #42967F;
+    border: 3px solid #285C4D;
+    color: white;
+  }
+  .primary:active {
+    background: #F0A85D;
+    border: 3px solid #AD7A44;
+    color: black;
+  }
+  .secondary {
+    background: #F0A85D;
+    border: 3px solid #AD7A44;
+    border-radius: 25px;
+    box-shadow: 0px 3px 7px;
+    transition: all 200ms linear;
+  }
+  .secondary:hover {
+    background: #42967F;
+    border: 3px solid #285C4D;
+    color: white;
+  }
+  .secondary:active {
+    background: #69F0CA;
+    border: 3px solid #42967F;
+    color: black;
+  }
+nav {}
+  nav { /* entire nav bar */
+    align-items: center;
+    background-color: hsla(220, 3%, 18%, 0.8);
+    border-bottom: 1px solid hsl(220, 3%, 18%);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  #logo {
+    height: 2.5rem;
+    padding-left: 1rem;
+    width: 2.5rem;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-right: 2rem;
+  }
+  li {
+    font-family: Jura, sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem 0rem 1rem 5rem;
+    text-shadow: 1px 1px 3px black;
+  }
+header {}
+  #banner {
+    width: 100%;
+  }
+  #site-title { /* includes subtitle */
+    position: absolute;
+    top: 190px;
+    left: 1000px;
+  }
+  #site-title h3 {
+    background-color: hsla(0, 0%, 0%, 0);
+    color: #5172F0;
+    font-family: Jura;
+    font-size: 2rem;
+    font-stretch: expanded;
+    font-weight: 400;
+    margin: 1rem;
+    text-align: right;
+    text-transform: lowercase;
+  }
+main {}
+
+  /* MISSION */
+  #mission {
+    display: flex;
+    align-items: center;
+  }
+  #mission-card {
+    margin: 5.9rem 20% 0rem 2rem;
+  }
+  #mission-card p {
+    padding: 1rem;
+    border: 2rem solid #2F47A3;
+  }
+
+  /* PRODUCTS */
+  #products {
+    background-color: #50A38C;
+    margin: 1rem 0 1rem 0;
+    padding-bottom: 5rem;
+  }
+  #products h2 {
+    color: #2D2E30;
+    padding-top: 5rem;
+  }
+  .feature-row,
+  .secondary-row {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15% 0 15%;
+  }
+  .feature-row {
+    margin-bottom: 3rem;
+  }
+  .product-card {
+    background-color: #2F47A3;
+    border: .1rem solid white;
+    border-radius: 1rem;
+    height: auto;
+    overflow: scroll;
+    width: 15.625rem;
+  }
+  #products img {
+    width: 15.625rem;
+    height: auto:
+  }
+
+  /* OUR TEAM */
+
+
+footer {}
